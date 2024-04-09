@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1279px) {
+    .container {
+        width: 95%;
+    }
+
+    .review-details {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .header-down,
+    .social-link {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .hero-area {
+        padding: 180px 0 180px 0;
+    }
+
+    .hero-area h1 {
+        font-size: 43px;
+        width: 80%;
+    }
+
+    .hero-area p {
+        font-size: 20px;
+    }
+
+    .review-details {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .review-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .review-description .bulet-point {
+        margin-top: 50px;
+    }
+
+    .review-heading h2 {
+        font-size: 40px;
+    }
+
+    .tips-description {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .personel-details :nth-child(3) {
+        width: 80%;
+    }
+
+    .company {
+        gap: 15px;
+    }
+
+    .footer-manue {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .footer-manue-iteam form input {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .footer-manue-iteam form button {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .tips-description {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .apply-description {
+        padding: 50px 20px;
+    }
+
+    .company {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .company .image {
+        width: 50%;
+    }
+
+    .footer-manue {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .footer-bottom p {
+        width: 70%;
+    }
+}
